@@ -4,3 +4,5 @@ services:
     image: nginx:latest
     ports:
       - "400:80"
+    volumes:
+      - ./code:/code
